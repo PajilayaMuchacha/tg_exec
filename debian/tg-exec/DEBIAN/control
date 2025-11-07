@@ -1,0 +1,11 @@
+Package: tg-exec
+Version: 1.0.2
+Architecture: amd64
+Maintainer: WithoutCowards
+Installed-Size: 4902
+Depends: ca-certificates
+Section: utils
+Priority: optional
+Description: Run a command and notify Telegram
+ Executes a command, prints output to terminal, and notifies a Telegram chat.
+ Always sends a message; includes full output only when the command fails.

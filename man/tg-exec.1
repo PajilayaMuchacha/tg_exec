@@ -1,0 +1,16 @@
+.TH tg-exec 1 "November 2025" "tg-exec 1.0.0" "User Commands"
+.SH NAME
+tg-exec \- run a command and notify Telegram (Go)
+.SH SYNOPSIS
+.B tg-exec
+[command ...]
+.SH DESCRIPTION
+Executes a command, prints output to terminal (tee), and sends a Telegram notification.
+Includes full output only on failure.
+.SH CONFIGURATION
+Global: /etc/tg-exec/config.conf
+User: ~/.config/tg-exec/config.conf
+.SH ENV
+TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, TG_NOTE, TG_EXEC_ALWAYS, TG_EXEC_PARSE_MODE, TG_EXEC_TZ, TG_EXEC_HTTP_TIMEOUT, TG_EXEC_RETRIES, TG_EXEC_BACKOFF, TG_EXEC_STRICT.
+.SH EXIT STATUS
+Returns the exit code of the executed command; 70 if notification fails and TG_EXEC_STRICT=1.
