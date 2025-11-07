@@ -71,7 +71,7 @@ TG_EXEC_STRICT="0"             # 1 = exit with error if send fails
 | `TELEGRAM_BOT_TOKEN` | Bot token                                       | - |
 | `TELEGRAM_CHAT_ID` | Chat ID (e.g. `-123456`)                        | - |
 | `TG_NOTE` | Custom note (hostname or alias)                 | hostname |
-| `TG_EXEC_ALWAYS` | Always send message (1 = yes, 0 = only on fail) | 1 |
+| `TG_EXEC_ALWAYS` | Always send message (1 = yes, 0 = yes, command output only on fail) | 1 |
 | `TG_EXEC_PARSE_MODE` | Telegram parse mode                             | HTML |
 | `TG_EXEC_HTTP_TIMEOUT` | API request timeout                             | 10 |
 | `TG_EXEC_RETRIES` | Retry attempts                                  | 3 |
@@ -107,7 +107,7 @@ hello
 | ALWAYS | Telegram message | Output included |
 |:-------:|:-----------------|:----------------|
 | `1` | Always | Yes |
-| `0` | Only on failure | Yes (only on error) |
+| `0` | Yes | Yes (only on error) |
 
 ---
 
